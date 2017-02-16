@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/index.js"],"names":[],"mappings":";;AAAA,IAAI,IAAI,EAAE,GAAG,EAAL,EAAR;AACA,IAAI,IAAI,EAAE,IAAF,EAAR;IACa,C,GAAQ,C,CAAb,C,CAAK,C;;;AAEb,QAAQ,GAAR,CAAY,MAAM,EAAlB","file":"bundle.js","sourcesContent":["var b = { c: 10 }\nvar a = { b }\nconst { b: { c } } = a\n\nconsole.log(c === 10)\n"]}

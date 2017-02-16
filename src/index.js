@@ -1,9 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import './index.css';
+var b = { c: 10 }
+var a = { b }
+const { b: { c } } = a
 
-ReactDOM.render(
-  <App />,
-  document.getElementById('root')
-);
+console.log(c === 10)
