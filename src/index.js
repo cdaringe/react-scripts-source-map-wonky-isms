@@ -1,5 +1,10 @@
-var b = { c: 10 }
-var a = { b }
-const { b: { c } } = a
-
-console.log(c === 10)
+class Mangler {
+  constructor(program) {
+    this.program = program;
+  }
+  static bananas () {
+    console.log('bananas')
+  }
+}
+const Zangler = Mangler
+new Zangler
