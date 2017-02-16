@@ -1,3 +1,3 @@
-'use strict';var _createClass=function(){function a(b,c){for(var e,d=0;d<c.length;d++)e=c[d],e.enumerable=e.enumerable||!1,e.configurable=!0,'value'in e&&(e.writable=!0),Object.defineProperty(b,e.key,e)}return function(b,c,d){return c&&a(b.prototype,c),d&&a(b,d),b}}();function _classCallCheck(a,b){if(!(a instanceof b))throw new TypeError('Cannot call a class as a function')}var Mangler=function(){function a(b){_classCallCheck(this,a),this.program=b}return _createClass(a,null,[{key:'bananas',value:function bananas(){console.log('bananas')}}]),a}(),Zangler=Mangler;new Zangler;
+class Mangler{constructor(a){debugger;this.program=a}static bananas(){console.log('bananas')}}const Zangler=Mangler;new Zangler(1);
 
 //# sourceMappingURL=bundle.js.map

@@ -1,5 +1,6 @@
 class Mangler {
   constructor(program) {
+    debugger
     this.program = program;
   }
   static bananas () {
@@ -7,4 +8,4 @@ class Mangler {
   }
 }
 const Zangler = Mangler
-new Zangler
+new Zangler(1)
